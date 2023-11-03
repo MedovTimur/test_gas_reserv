@@ -1,0 +1,12 @@
+[package]
+name = "gas_reserv"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gstd = { git = "https://github.com/gear-tech/gear", tag = "v0.3.3" }
+
+[build-dependencies]
+gear-wasm-builder = { git = "https://github.com/gear-tech/gear", tag = "v0.3.3" }
